@@ -1,0 +1,3005 @@
+{
+  "group": "afterHoursChangeAbove",
+  "display_name": "After-Hours Change Above",
+  "type": "non-range"
+}
+{
+  "group": "afterHoursChangeBelow",
+  "display_name": "After-Hours Change Below",
+  "type": "non-range"
+}
+{
+  "group": "afterHoursChangePercAbove",
+  "display_name": "After-Hours Change (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "afterHoursChangePercBelow",
+  "display_name": "After-Hours Change (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "avgOptVolumeAbove",
+  "display_name": "Average Opt. Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "avgPriceTargetAbove",
+  "display_name": "Avg Analyst Price Target Above",
+  "type": "non-range"
+}
+{
+  "group": "avgPriceTargetBelow",
+  "display_name": "Avg Analyst Price Target Below",
+  "type": "non-range"
+}
+{
+  "group": "avgRatingAbove",
+  "display_name": "Avg Analyst Rating Above",
+  "type": "non-range"
+}
+{
+  "group": "avgRatingBelow",
+  "display_name": "Avg Analyst Rating Below",
+  "type": "non-range"
+}
+{
+  "group": "avgAnalystTarget2PriceRatioAbove",
+  "display_name": "Avg Analyst Target/Price Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "avgAnalystTarget2PriceRatioBelow",
+  "display_name": "Avg Analyst Target/Price Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "avgVolumeAbove",
+  "display_name": "Avg Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "avgVolumeBelow",
+  "display_name": "Avg Volume Below",
+  "type": "non-range"
+}
+{
+  "group": "avgUsdVolumeAbove",
+  "display_name": "Avg Volume ($) Above",
+  "type": "non-range"
+}
+{
+  "group": "avgUsdVolumeBelow",
+  "display_name": "Avg Volume ($) Below",
+  "type": "non-range"
+}
+{
+  "group": "changeOpenPercAbove",
+  "display_name": "Change Since Open (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "changeOpenPercBelow",
+  "display_name": "Change Since Open (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "changePercAbove",
+  "display_name": "Change (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "changePercBelow",
+  "display_name": "Change (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "curEMA20Above",
+  "display_name": "EMA(20) Above",
+  "type": "non-range"
+}
+{
+  "group": "curEMA20Below",
+  "display_name": "EMA(20) Below",
+  "type": "non-range"
+}
+{
+  "group": "curEMA50Above",
+  "display_name": "EMA(50) Above",
+  "type": "non-range"
+}
+{
+  "group": "curEMA50Below",
+  "display_name": "EMA(50) Below",
+  "type": "non-range"
+}
+{
+  "group": "curEMA100Above",
+  "display_name": "EMA(100) Above",
+  "type": "non-range"
+}
+{
+  "group": "curEMA100Below",
+  "display_name": "EMA(100) Below",
+  "type": "non-range"
+}
+{
+  "group": "curEMA200Above",
+  "display_name": "EMA(200) Above",
+  "type": "non-range"
+}
+{
+  "group": "curEMA200Below",
+  "display_name": "EMA(200) Below",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio20Above",
+  "display_name": "Price vs EMA(20) Change(%) Above",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio20Below",
+  "display_name": "Price vs EMA(20) Change(%) Below",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio50Above",
+  "display_name": "Price vs EMA(50) Change(%) Above",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio50Below",
+  "display_name": "Price vs EMA(50) Change(%) Below",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio100Above",
+  "display_name": "Price vs EMA(100) Change(%) Above",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio100Below",
+  "display_name": "Price vs EMA(100) Change(%) Below",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio200Above",
+  "display_name": "Price vs EMA(200) Change(%) Above",
+  "type": "non-range"
+}
+{
+  "group": "lastVsEMAChangeRatio200Below",
+  "display_name": "Price vs EMA(200) Change(%) Below",
+  "type": "non-range"
+}
+{
+  "group": "dividendFrdAbove",
+  "display_name": "Dividends Above (%)",
+  "type": "non-range"
+}
+{
+  "group": "dividendFrdBelow",
+  "display_name": "Dividends Below (%)",
+  "type": "non-range"
+}
+{
+  "group": "dividendYieldFrdAbove",
+  "display_name": "Dividend Yield Above (%)",
+  "type": "non-range"
+}
+{
+  "group": "dividendYieldFrdBelow",
+  "display_name": "Dividend Yield Below (%)",
+  "type": "non-range"
+}
+{
+  "group": "feeRateAbove",
+  "display_name": "Fee Rate Above",
+  "type": "non-range"
+}
+{
+  "group": "feeRateBelow",
+  "display_name": "Fee Rate Below",
+  "type": "non-range"
+}
+{
+  "group": "firstTradeDateAbove",
+  "display_name": "First Trade Date Above",
+  "type": "non-range"
+}
+{
+  "group": "firstTradeDateBelow",
+  "display_name": "First Trade Date Below",
+  "type": "non-range"
+}
+{
+  "group": "minGrowthRate",
+  "display_name": "Growth Rate Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxGrowthRate",
+  "display_name": "Growth Rate Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "haltedIs",
+  "display_name": "Halted",
+  "type": "combo"
+}
+{
+  "group": "hasOptionsIs",
+  "display_name": "Has Options",
+  "type": "combo"
+}
+{
+  "group": "histDividendFrdAbove",
+  "display_name": "Dividends TTM Above (%)",
+  "type": "non-range"
+}
+{
+  "group": "histDividendFrdBelow",
+  "display_name": "Dividends TTM Below (%)",
+  "type": "non-range"
+}
+{
+  "group": "histDividendFrdYieldAbove",
+  "display_name": "Dividend Yield TTM Above (%)",
+  "type": "non-range"
+}
+{
+  "group": "histDividendFrdYieldBelow",
+  "display_name": "Dividend Yield TTM Below (%)",
+  "type": "non-range"
+}
+{
+  "group": "imbalanceAbove",
+  "display_name": "Imbalance Above",
+  "type": "non-range"
+}
+{
+  "group": "imbalanceBelow",
+  "display_name": "Imbalance Below",
+  "type": "non-range"
+}
+{
+  "group": "displayImbalanceAdvRatioAbove",
+  "display_name": "Imbalance Adv Ratio (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "displayImbalanceAdvRatioBelow",
+  "display_name": "Imbalance Adv Ratio (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "impVolatAbove",
+  "display_name": "Opt Imp Vol Above",
+  "type": "non-range"
+}
+{
+  "group": "impVolatBelow",
+  "display_name": "Opt Imp Vol Below",
+  "type": "non-range"
+}
+{
+  "group": "impVolatChangePercAbove",
+  "display_name": "Opt Imp Vol Change (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "impVolatChangePercBelow",
+  "display_name": "Opt Imp Vol Change (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "impVolatOverHistAbove",
+  "display_name": "Opt Imp Vol Over Hist Above",
+  "type": "non-range"
+}
+{
+  "group": "impVolatOverHistBelow",
+  "display_name": "Opt Imp Vol Over Hist Below",
+  "type": "non-range"
+}
+{
+  "group": "ihInsiderOfFloatPercAbove",
+  "display_name": "Insider Shares as % of Float Above",
+  "type": "non-range"
+}
+{
+  "group": "ihInsiderOfFloatPercBelow",
+  "display_name": "Insider Shares as % of Float Below",
+  "type": "non-range"
+}
+{
+  "group": "iiInstitutionalOfFloatPercAbove",
+  "display_name": "Institutional Shares as % of Float Above",
+  "type": "non-range"
+}
+{
+  "group": "iiInstitutionalOfFloatPercBelow",
+  "display_name": "Institutional Shares as % of Float Below",
+  "type": "non-range"
+}
+{
+  "group": "curMACDAbove",
+  "display_name": "MACD Above",
+  "type": "non-range"
+}
+{
+  "group": "curMACDBelow",
+  "display_name": "MACD Below",
+  "type": "non-range"
+}
+{
+  "group": "curMACDSignalAbove",
+  "display_name": "MACD Signal Above",
+  "type": "non-range"
+}
+{
+  "group": "curMACDSignalBelow",
+  "display_name": "MACD Signal Below",
+  "type": "non-range"
+}
+{
+  "group": "curMACDDistAbove",
+  "display_name": "MACD Histogram Above",
+  "type": "non-range"
+}
+{
+  "group": "curMACDDistBelow",
+  "display_name": "MACD Histogram Below",
+  "type": "non-range"
+}
+{
+  "group": "marketCapAbove1e6",
+  "display_name": "Capitalization Above",
+  "type": "non-range"
+}
+{
+  "group": "marketCapBelow1e6",
+  "display_name": "Capitalization Below",
+  "type": "non-range"
+}
+{
+  "group": "dividendNextAmountAbove",
+  "display_name": "Next Dividend per Share Above",
+  "type": "non-range"
+}
+{
+  "group": "dividendNextAmountBelow",
+  "display_name": "Next Dividend per Share Below",
+  "type": "non-range"
+}
+{
+  "group": "dividendNextDateAbove",
+  "display_name": "Next Dividend Date Above",
+  "type": "non-range"
+}
+{
+  "group": "dividendNextDateBelow",
+  "display_name": "Next Dividend Date Below",
+  "type": "non-range"
+}
+{
+  "group": "numPriceTargetsAbove",
+  "display_name": "# of Analyst Price Targets Above",
+  "type": "non-range"
+}
+{
+  "group": "numPriceTargetsBelow",
+  "display_name": "# of Analyst Price Targets Below",
+  "type": "non-range"
+}
+{
+  "group": "numRatingsAbove",
+  "display_name": "# of Analyst Ratings Above",
+  "type": "non-range"
+}
+{
+  "group": "numRatingsBelow",
+  "display_name": "# of Analyst Ratings Below",
+  "type": "non-range"
+}
+{
+  "group": "ihNumSharesInsiderAbove",
+  "display_name": "# Shares held by Insider Above",
+  "type": "non-range"
+}
+{
+  "group": "ihNumSharesInsiderBelow",
+  "display_name": "# Shares held by Insider Below",
+  "type": "non-range"
+}
+{
+  "group": "iiNumSharesInstitutionalAbove",
+  "display_name": "# Shares held by Institutions Above",
+  "type": "non-range"
+}
+{
+  "group": "iiNumSharesInstitutionalBelow",
+  "display_name": "# Shares held by Institutions Below",
+  "type": "non-range"
+}
+{
+  "group": "openGapPercAbove",
+  "display_name": "Gap (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "openGapPercBelow",
+  "display_name": "Gap (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "optOpenInterestAbove",
+  "display_name": "Opt Open Interest Above",
+  "type": "non-range"
+}
+{
+  "group": "optOpenInterestBelow",
+  "display_name": "Opt Open Interest Below",
+  "type": "non-range"
+}
+{
+  "group": "optVolumeAbove",
+  "display_name": "Option Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "optVolumeBelow",
+  "display_name": "Option Volume Below",
+  "type": "non-range"
+}
+{
+  "group": "optVolumePCRatioAbove",
+  "display_name": "Opt Volume P/C Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "optVolumePCRatioBelow",
+  "display_name": "Opt Volume P/C Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "peaEligibleStkIs",
+  "display_name": "PEA Eligible",
+  "type": "combo"
+}
+{
+  "group": "minPeRatio",
+  "display_name": "P/E Ratio Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxPeRatio",
+  "display_name": "P/E Ratio Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "curPPOAbove",
+  "display_name": "PPO Above",
+  "type": "non-range"
+}
+{
+  "group": "curPPOBelow",
+  "display_name": "PPO Below",
+  "type": "non-range"
+}
+{
+  "group": "curPPOSignalAbove",
+  "display_name": "PPO Signal Above",
+  "type": "non-range"
+}
+{
+  "group": "curPPOSignalBelow",
+  "display_name": "PPO Signal Below",
+  "type": "non-range"
+}
+{
+  "group": "curPPODistAbove",
+  "display_name": "PPO Histogram Above",
+  "type": "non-range"
+}
+{
+  "group": "curPPODistBelow",
+  "display_name": "PPO Histogram Below",
+  "type": "non-range"
+}
+{
+  "group": "priceAbove",
+  "display_name": "Price Above",
+  "type": "non-range"
+}
+{
+  "group": "priceBelow",
+  "display_name": "Price Below",
+  "type": "non-range"
+}
+{
+  "group": "minPrice2Bk",
+  "display_name": "Price/Book Ratio Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxPrice2Bk",
+  "display_name": "Price/Book Ratio Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "minPrice2TanBk",
+  "display_name": "Price/Tang. Book Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxPrice2TanBk",
+  "display_name": "Price/Tang. Book Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "priceRangeAbove",
+  "display_name": "Price Range Above",
+  "type": "non-range"
+}
+{
+  "group": "priceRangeBelow",
+  "display_name": "Price Range Below",
+  "type": "non-range"
+}
+{
+  "group": "usdPriceAbove",
+  "display_name": "Price ($) Above",
+  "type": "non-range"
+}
+{
+  "group": "usdPriceBelow",
+  "display_name": "Price ($) Below",
+  "type": "non-range"
+}
+{
+  "group": "minQuickRatio",
+  "display_name": "Quick Ratio Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxQuickRatio",
+  "display_name": "Quick Ratio Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "regulatoryImbalanceAbove",
+  "display_name": "Regulatory Imbalance Above",
+  "type": "non-range"
+}
+{
+  "group": "regulatoryImbalanceBelow",
+  "display_name": "Regulatory Imbalance Below",
+  "type": "non-range"
+}
+{
+  "group": "displayRegulatoryImbAdvRatioAbove",
+  "display_name": "Regulatory Imbalance Adv Ratio (%) Above",
+  "type": "non-range"
+}
+{
+  "group": "displayRegulatoryImbAdvRatioBelow",
+  "display_name": "Regulatory Imbalance Adv Ratio (%) Below",
+  "type": "non-range"
+}
+{
+  "group": "minRetnOnEq",
+  "display_name": "Return On Equity Above (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "maxRetnOnEq",
+  "display_name": "Return On Equity Below (Refinitiv)",
+  "type": "non-range"
+}
+{
+  "group": "sharesAvailableManyAbove",
+  "display_name": "Shares Available Above",
+  "type": "non-range"
+}
+{
+  "group": "sharesAvailableManyBelow",
+  "display_name": "Shares Available Below",
+  "type": "non-range"
+}
+{
+  "group": "shortSaleRestrictionIs",
+  "display_name": "Short Sale Restriction",
+  "type": "combo"
+}
+{
+  "group": "issuerCountryIs",
+  "display_name": "Issuer Country",
+  "type": "combo"
+}
+{
+  "group": "stkTypes",
+  "display_name": "Stock type",
+  "type": "combo"
+}
+{
+  "group": "stVolume3minAbove",
+  "display_name": "3min Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "stVolume3minBelow",
+  "display_name": "3min Volume Below",
+  "type": "non-range"
+}
+{
+  "group": "stVolume5minAbove",
+  "display_name": "5min Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "stVolume5minBelow",
+  "display_name": "5min Volume Below",
+  "type": "non-range"
+}
+{
+  "group": "stVolume10minAbove",
+  "display_name": "10min Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "stVolume10minBelow",
+  "display_name": "10min Volume Below",
+  "type": "non-range"
+}
+{
+  "group": "tradeCountAbove",
+  "display_name": "Trade Count Above",
+  "type": "non-range"
+}
+{
+  "group": "tradeCountBelow",
+  "display_name": "Trade Count Below",
+  "type": "non-range"
+}
+{
+  "group": "tradeRateAbove",
+  "display_name": "Trade Rate Above",
+  "type": "non-range"
+}
+{
+  "group": "tradeRateBelow",
+  "display_name": "Trade Rate Below",
+  "type": "non-range"
+}
+{
+  "group": "unshortableIs",
+  "display_name": "Unshortable",
+  "type": "combo"
+}
+{
+  "group": "volumeAbove",
+  "display_name": "Volume Above",
+  "type": "non-range"
+}
+{
+  "group": "volumeRateAbove",
+  "display_name": "Volume Rate Above",
+  "type": "non-range"
+}
+{
+  "group": "volumeRateBelow",
+  "display_name": "Volume Rate Below",
+  "type": "non-range"
+}
+{
+  "group": "usdVolumeAbove",
+  "display_name": "Volume ($) Above",
+  "type": "non-range"
+}
+{
+  "group": "usdVolumeBelow",
+  "display_name": "Volume ($) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgLongTermClassIs",
+  "display_name": "Long Term Class (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "rcgLongTermTechnicalDateAbove",
+  "display_name": "Long Term Technical Event Date (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgLongTermTechnicalDateBelow",
+  "display_name": "Long Term Technical Event Date (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgLongTermEventScoreAbove",
+  "display_name": "Long Term Event Score (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgLongTermEventScoreBelow",
+  "display_name": "Long Term Event Score (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgLongTermTradeIs",
+  "display_name": "Long Term Long/Short (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "rcgIntermediateTermClassIs",
+  "display_name": "Intermediate Term Class (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "rcgIntermediateTermTechnicalDateAbove",
+  "display_name": "Intermediate Term Technical Event Date (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgIntermediateTermTechnicalDateBelow",
+  "display_name": "Intermediate Term Technical Event Date (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgIntermediateTermEventScoreAbove",
+  "display_name": "Intermediate Term Event Score (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgIntermediateTermEventScoreBelow",
+  "display_name": "Intermediate Term Event Score (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgIntermediateTermTradeIs",
+  "display_name": "Intermediate Term Long/Short (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "rcgShortTermClassIs",
+  "display_name": "Short Term Class (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "rcgShortTermTechnicalDateAbove",
+  "display_name": "Short Term Technical Event Date (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgShortTermTechnicalDateBelow",
+  "display_name": "Short Term Technical Event Date (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgShortTermEventScoreAbove",
+  "display_name": "Short Term Event Score (Recognia) Above",
+  "type": "non-range"
+}
+{
+  "group": "rcgShortTermEventScoreBelow",
+  "display_name": "Short Term Event Score (Recognia) Below",
+  "type": "non-range"
+}
+{
+  "group": "rcgShortTermTradeIs",
+  "display_name": "Short Term Long/Short (Recognia)",
+  "type": "combo"
+}
+{
+  "group": "esgScoreAbove",
+  "display_name": "ESG Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgScoreBelow",
+  "display_name": "ESG Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgCombinedScoreAbove",
+  "display_name": "ESG Combined Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgCombinedScoreBelow",
+  "display_name": "ESG Combined Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgControversiesScoreAbove",
+  "display_name": "ESG Controversies Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgControversiesScoreBelow",
+  "display_name": "ESG Controversies Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgResourceUseScoreAbove",
+  "display_name": "ESG Resource Use Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgResourceUseScoreBelow",
+  "display_name": "ESG Resource Use Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgEmissionsScoreAbove",
+  "display_name": "ESG Emissions Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgEmissionsScoreBelow",
+  "display_name": "ESG Emissions Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgEnvInvScoreAbove",
+  "display_name": "ESG Environmental Innovation Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgEnvInvScoreBelow",
+  "display_name": "ESG Environmental Innovation Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgWorkforceScoreAbove",
+  "display_name": "ESG Workforce Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgWorkforceScoreBelow",
+  "display_name": "ESG Workforce Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgHrScoreAbove",
+  "display_name": "ESG Human Rights Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgHrScoreBelow",
+  "display_name": "ESG Human Rights Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgCommunityScoreAbove",
+  "display_name": "ESG Community Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgCommunityScoreBelow",
+  "display_name": "ESG Community Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgProdRespScoreAbove",
+  "display_name": "ESG Product Responsibility Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgProdRespScoreBelow",
+  "display_name": "ESG Product Responsibility Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgManagementScoreAbove",
+  "display_name": "ESG Management Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgManagementScoreBelow",
+  "display_name": "ESG Management Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgShareholdersScoreAbove",
+  "display_name": "ESG Shareholders Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgShareholdersScoreBelow",
+  "display_name": "ESG Shareholders Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgStrategyScoreAbove",
+  "display_name": "ESG CSR Strategy Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgStrategyScoreBelow",
+  "display_name": "ESG CSR Strategy Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgEnvPillarScoreAbove",
+  "display_name": "ESG Environmental Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgEnvPillarScoreBelow",
+  "display_name": "ESG Environmental Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgSocialPillarScoreAbove",
+  "display_name": "ESG Social Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgSocialPillarScoreBelow",
+  "display_name": "ESG Social Score Below",
+  "type": "non-range"
+}
+{
+  "group": "esgCorpGovPillarScoreAbove",
+  "display_name": "ESG Corporate Governance Score Above",
+  "type": "non-range"
+}
+{
+  "group": "esgCorpGovPillarScoreBelow",
+  "display_name": "ESG Corporate Governance Score Below",
+  "type": "non-range"
+}
+{
+  "group": "ivRank13wAbove",
+  "display_name": "13 Week IV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "ivRank13wBelow",
+  "display_name": "13 Week IV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "ivRank26wAbove",
+  "display_name": "26 Week IV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "ivRank26wBelow",
+  "display_name": "26 Week IV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "ivRank52wAbove",
+  "display_name": "52 Week IV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "ivRank52wBelow",
+  "display_name": "52 Week IV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl13wAbove",
+  "display_name": "13 Week IV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl13wBelow",
+  "display_name": "13 Week IV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl26wAbove",
+  "display_name": "26 Week IV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl26wBelow",
+  "display_name": "26 Week IV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl52wAbove",
+  "display_name": "52 Week IV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "ivPercntl52wBelow",
+  "display_name": "52 Week IV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "hvRank13wAbove",
+  "display_name": "13 Week HV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "hvRank13wBelow",
+  "display_name": "13 Week HV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "HVRank26wAbove",
+  "display_name": "26 Week HV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "HVRank26wBelow",
+  "display_name": "26 Week HV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "HVRank52wAbove",
+  "display_name": "52 Week HV Rank Above",
+  "type": "non-range"
+}
+{
+  "group": "HVRank52wBelow",
+  "display_name": "52 Week HV Rank Below",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl13wAbove",
+  "display_name": "13 Week HV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl13wBelow",
+  "display_name": "13 Week HV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl26wAbove",
+  "display_name": "26 Week HV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl26wBelow",
+  "display_name": "26 Week HV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl52wAbove",
+  "display_name": "52 Week HV Percentile Above",
+  "type": "non-range"
+}
+{
+  "group": "HVPercntl52wBelow",
+  "display_name": "52 Week HV Percentile Below",
+  "type": "non-range"
+}
+{
+  "group": "utilizationAbove",
+  "display_name": "Utilization Above",
+  "type": "non-range"
+}
+{
+  "group": "utilizationBelow",
+  "display_name": "Utilization Below",
+  "type": "non-range"
+}
+{
+  "group": "socialSentimentScoreAbove",
+  "display_name": "Social Sentiment Score Above",
+  "type": "non-range"
+}
+{
+  "group": "socialSentimentScoreBelow",
+  "display_name": "Social Sentiment Score Below",
+  "type": "non-range"
+}
+{
+  "group": "socialSentimentScoreChangeAbove",
+  "display_name": "Social Sentiment Score Change Above",
+  "type": "non-range"
+}
+{
+  "group": "socialSentimentScoreChangeBelow",
+  "display_name": "Social Sentiment Score Change Below",
+  "type": "non-range"
+}
+{
+  "group": "tweetVolumeScoreAbove",
+  "display_name": "Tweet Volume Score Above",
+  "type": "non-range"
+}
+{
+  "group": "tweetVolumeScoreBelow",
+  "display_name": "Tweet Volume Score Below",
+  "type": "non-range"
+}
+{
+  "group": "tweetVolumeScoreChangeAbove",
+  "display_name": "Tweet Volume Score Change Above",
+  "type": "non-range"
+}
+{
+  "group": "tweetVolumeScoreChangeBelow",
+  "display_name": "Tweet Volume Score Change Below",
+  "type": "non-range"
+}
+{
+  "group": "epsChangeTTMAbove",
+  "display_name": "EPS Chg TTM % (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "epsChangeTTMBelow",
+  "display_name": "EPS Chg TTM % (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "revChangeAbove",
+  "display_name": "Rev Change(%) (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "revChangeBelow",
+  "display_name": "Rev Change(%) (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "revGrowthRate5YAbove",
+  "display_name": "Revenue Growth Rate 5Y (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "revGrowthRate5YBelow",
+  "display_name": "Revenue Growth Rate 5Y (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "payoutRatioTTMAbove",
+  "display_name": "Payout Ratio TTM (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "payoutRatioTTMBelow",
+  "display_name": "Payout Ratio TTM (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "price2CashTTMAbove",
+  "display_name": "Price To Cash Per Share (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "price2CashTTMBelow",
+  "display_name": "Price To Cash Per Share (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "operatingMarginTTMAbove",
+  "display_name": "Operating Margin (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "operatingMarginTTMBelow",
+  "display_name": "Operating Margin (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "netProfitMarginTTMAbove",
+  "display_name": "Net Profit Margin(%) (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "netProfitMarginTTMBelow",
+  "display_name": "Net Profit Margin(%) (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "returnOnInvestmentTTMAbove",
+  "display_name": "Return On Investment (Refinitiv) Above",
+  "type": "non-range"
+}
+{
+  "group": "returnOnInvestmentTTMBelow",
+  "display_name": "Return On Investment (Refinitiv) Below",
+  "type": "non-range"
+}
+{
+  "group": "numSharesAbove",
+  "display_name": "Shares Outstanding Above",
+  "type": "non-range"
+}
+{
+  "group": "numSharesBelow",
+  "display_name": "Shares Outstanding Below",
+  "type": "non-range"
+}
+{
+  "group": "etfAssetsAbove",
+  "display_name": "Assets Under Management (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfAssetsBelow",
+  "display_name": "Assets Under Management (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfExpenseAbove",
+  "display_name": "Expense (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfExpenseBelow",
+  "display_name": "Expense (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfALTARAbove",
+  "display_name": "Altar Score (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfALTARBelow",
+  "display_name": "Altar Score (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfAvgALTARAbove",
+  "display_name": "Avg Altar Score (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfAvgALTARBelow",
+  "display_name": "Avg Altar Score (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTRytdAbove",
+  "display_name": "Year-to-Date Total Return (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTRytdBelow",
+  "display_name": "Year-to-Date Total Return (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTR1yrAbove",
+  "display_name": "1yr Total Return (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTR1yrBelow",
+  "display_name": "1yr Total Return (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTR5yrAbove",
+  "display_name": "5yr Total Return (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTR5yrBelow",
+  "display_name": "5yr Total Return (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTR10yrAbove",
+  "display_name": "10yr Total Return (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTR10yrBelow",
+  "display_name": "10yr Total Return (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTRIncepAbove",
+  "display_name": "Total Return Since Inception (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTRIncepBelow",
+  "display_name": "Total Return Since Inception (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfTrackingDiffPctAbove",
+  "display_name": "1yr Tracking Difference (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfTrackingDiffPctBelow",
+  "display_name": "1yr Tracking Difference (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfBidAskPctAbove",
+  "display_name": "Average Bid Ask Spread (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfBidAskPctBelow",
+  "display_name": "Average Bid Ask Spread (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfEmgAbove",
+  "display_name": "Emerging Market Exposure (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfEmgBelow",
+  "display_name": "Emerging Market Exposure (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfDevAbove",
+  "display_name": "Developed Market Exposure (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfDevBelow",
+  "display_name": "Developed Market Exposure (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etf5yrEPSAbove",
+  "display_name": "5yr EPS Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etf5yrEPSBelow",
+  "display_name": "5yr EPS Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfLeverageAbove",
+  "display_name": "Leverage (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfLeverageBelow",
+  "display_name": "Leverage (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfAssetTurnsAbove",
+  "display_name": "Asset Turnover Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfAssetTurnsBelow",
+  "display_name": "Asset Turnover Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etf1moChngAbove",
+  "display_name": "1mo Change (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etf1moChngBelow",
+  "display_name": "1mo Change (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etf3moChngAbove",
+  "display_name": "3mo Change (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etf3moChngBelow",
+  "display_name": "3mo Change (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfPayoutAbove",
+  "display_name": "Payout (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfPayoutBelow",
+  "display_name": "Payout (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_PEAbove",
+  "display_name": "Forward Price/Earnings (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_PEBelow",
+  "display_name": "Forward Price/Earnings (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_PCFAbove",
+  "display_name": "Forward Price/Cash Flow (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_PCFBelow",
+  "display_name": "Forward Price/Cash Flow (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_YldAbove",
+  "display_name": "Forward Dividend Yield (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfFwd_YldBelow",
+  "display_name": "Forward Dividend Yield (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfBetaSPXAbove",
+  "display_name": "Beta S&P500 (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfBetaSPXBelow",
+  "display_name": "Beta S&P500 (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfLTGAbove",
+  "display_name": "Long Term Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfLTGBelow",
+  "display_name": "Long Term Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfSht_IntAbove",
+  "display_name": "Short Interest (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfSht_IntBelow",
+  "display_name": "Short Interest  (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfRSIAbove",
+  "display_name": "30-day RSI (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfRSIBelow",
+  "display_name": "30-day RSI (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfComponent_CountAbove",
+  "display_name": "Number of Components (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfComponent_CountBelow",
+  "display_name": "Number of Components (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfDistribFreqIs",
+  "display_name": "Distribution Frequency (Alta Vista)",
+  "type": "combo"
+}
+{
+  "group": "prevYrETFFYBVPerShareAbove",
+  "display_name": "Prev Year Book Value Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYBVPerShareBelow",
+  "display_name": "Prev Year Book Value Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYDividendYieldAbove",
+  "display_name": "Prev Year Dividend Yield (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYDividendYieldBelow",
+  "display_name": "Prev Year Dividend Yield (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYDPSAbove",
+  "display_name": "Prev Year Dividends Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYDPSBelow",
+  "display_name": "Prev Year Dividends Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYEPSAbove",
+  "display_name": "Prev Year Earnings Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYEPSBelow",
+  "display_name": "Prev Year Earnings Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYEPSGrowthAbove",
+  "display_name": "Prev Year Earnings Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYEPSGrowthBelow",
+  "display_name": "Prev Year Earnings Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYNetMarginAbove",
+  "display_name": "Prev Year Net Margins Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYNetMarginBelow",
+  "display_name": "Prev Year Net Margins Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToBookValueAbove",
+  "display_name": "Prev Year Price/Book Value Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToBookValueBelow",
+  "display_name": "Prev Year Price/Book Value Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToCashFlowAbove",
+  "display_name": "Prev Year Price/Cash Flow Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToCashFlowBelow",
+  "display_name": "Prev Year Price/Cash Flow Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToEarningsAbove",
+  "display_name": "Prev Year Price/Earnings Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToEarningsBelow",
+  "display_name": "Prev Year Price/Earnings Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToGrowthAbove",
+  "display_name": "Prev Year Price/Growth Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToGrowthBelow",
+  "display_name": "Prev Year Price/Growth Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToSalesAbove",
+  "display_name": "Prev Year Price/Sales Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYPriceToSalesBelow",
+  "display_name": "Prev Year Price/Sales Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYRoEAbove",
+  "display_name": "Prev Year Return on Equity (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYRoEBelow",
+  "display_name": "Prev Year Return on Equity (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYSPSAbove",
+  "display_name": "Prev Year Sales Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYSPSBelow",
+  "display_name": "Prev Year Sales Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYSPSGrowthAbove",
+  "display_name": "Prev Year Sales Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "prevYrETFFYSPSGrowthBelow",
+  "display_name": "Prev Year Sales Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYBVPerShareAbove",
+  "display_name": "Curr Year Book Value Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYBVPerShareBelow",
+  "display_name": "Curr Year Book Value Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYDividendYieldAbove",
+  "display_name": "Curr Year Dividend Yield (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYDividendYieldBelow",
+  "display_name": "Curr Year Dividend Yield (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYDPSAbove",
+  "display_name": "Curr Year Dividends Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYDPSBelow",
+  "display_name": "Curr Year Dividends Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYEPSAbove",
+  "display_name": "Curr Year Earnings Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYEPSBelow",
+  "display_name": "Curr Year Earnings Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYEPSGrowthAbove",
+  "display_name": "Curr Year Earnings Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYEPSGrowthBelow",
+  "display_name": "Curr Year Earnings Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYNetMarginAbove",
+  "display_name": "Curr Year Net Margins Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYNetMarginBelow",
+  "display_name": "Curr Year Net Margins Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToBookValueAbove",
+  "display_name": "Curr Year Price/Book Value Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToBookValueBelow",
+  "display_name": "Curr Year Price/Book Value Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToCashFlowAbove",
+  "display_name": "Curr Year Price/Cash Flow Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToCashFlowBelow",
+  "display_name": "Curr Year Price/Cash Flow Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToEarningsAbove",
+  "display_name": "Curr Year Price/Earnings Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToEarningsBelow",
+  "display_name": "Curr Year Price/Earnings Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToGrowthAbove",
+  "display_name": "Curr Year Price/Growth Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToGrowthBelow",
+  "display_name": "Curr Year Price/Growth Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToSalesAbove",
+  "display_name": "Curr Year Price/Sales Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYPriceToSalesBelow",
+  "display_name": "Curr Year Price/Sales Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYRoEAbove",
+  "display_name": "Curr Year Return on Equity (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYRoEBelow",
+  "display_name": "Curr Year Return on Equity (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYSPSAbove",
+  "display_name": "Curr Year Sales Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYSPSBelow",
+  "display_name": "Curr Year Sales Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYSPSGrowthAbove",
+  "display_name": "Curr Year Sales Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "currYrETFFYSPSGrowthBelow",
+  "display_name": "Curr Year Sales Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYBVPerShareAbove",
+  "display_name": "Next Year Book Value Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYBVPerShareBelow",
+  "display_name": "Next Year Book Value Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYDividendYieldAbove",
+  "display_name": "Next Year Dividend Yield (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYDividendYieldBelow",
+  "display_name": "Next Year Dividend Yield (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYDPSAbove",
+  "display_name": "Next Year Dividends Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYDPSBelow",
+  "display_name": "Next Year Dividends Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYEPSAbove",
+  "display_name": "Next Year Earnings Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYEPSBelow",
+  "display_name": "Next Year Earnings Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYEPSGrowthAbove",
+  "display_name": "Next Year Earnings Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYEPSGrowthBelow",
+  "display_name": "Next Year Earnings Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYNetMarginAbove",
+  "display_name": "Next Year Net Margins Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYNetMarginBelow",
+  "display_name": "Next Year Net Margins Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToBookValueAbove",
+  "display_name": "Next Year Price/Book Value Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToBookValueBelow",
+  "display_name": "Next Year Price/Book Value Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToCashFlowAbove",
+  "display_name": "Next Year Price/Cash Flow Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToCashFlowBelow",
+  "display_name": "Next Year Price/Cash Flow Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToEarningsAbove",
+  "display_name": "Next Year Price/Earnings Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToEarningsBelow",
+  "display_name": "Next Year Price/Earnings Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToGrowthAbove",
+  "display_name": "Next Year Price/Growth Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToGrowthBelow",
+  "display_name": "Next Year Price/Growth Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToSalesAbove",
+  "display_name": "Next Year Price/Sales Ratio (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYPriceToSalesBelow",
+  "display_name": "Next Year Price/Sales Ratio (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYRoEAbove",
+  "display_name": "Next Year Return on Equity (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYRoEBelow",
+  "display_name": "Next Year Return on Equity (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYSPSAbove",
+  "display_name": "Next Year Sales Per Share (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYSPSBelow",
+  "display_name": "Next Year Sales Per Share (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYSPSGrowthAbove",
+  "display_name": "Next Year Sales Per Share Growth (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "nextYrETFFYSPSGrowthBelow",
+  "display_name": "Next Year Sales Per Share Growth (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalNetAssetsAbove",
+  "display_name": "Total Net Assets Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalNetAssetsBelow",
+  "display_name": "Total Net Assets Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalExpenseRatioAbove",
+  "display_name": "Total Expense Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalExpenseRatioBelow",
+  "display_name": "Total Expense Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDistributionYield1yrValueAbove",
+  "display_name": "Distribution Yield 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDistributionYield1yrValueBelow",
+  "display_name": "Distribution Yield 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPercentageGrowthCumulativeValueAbove",
+  "display_name": "Percentage Growth Cumulative Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPercentageGrowthCumulativeValueBelow",
+  "display_name": "Percentage Growth Cumulative Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance3yrValueAbove",
+  "display_name": "Annualized Performance 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance3yrValueBelow",
+  "display_name": "Annualized Performance 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance5yrValueAbove",
+  "display_name": "Annualized Performance 5Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance5yrValueBelow",
+  "display_name": "Annualized Performance 5Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance10yrValueAbove",
+  "display_name": "Annualized Performance 10Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAnnualizedPerformance10yrValueBelow",
+  "display_name": "Annualized Performance 10Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperYieldValueAbove",
+  "display_name": "Yield 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperYieldValueBelow",
+  "display_name": "Yield 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperProjectedYieldValueAbove",
+  "display_name": "Projected Yield Value Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperProjectedYieldValueBelow",
+  "display_name": "Projected Yield Value Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPctChangeAbove",
+  "display_name": "Pct Change Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPctChangeBelow",
+  "display_name": "Pct Change Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAdjustedRSquared1yrAbove",
+  "display_name": "R-Squared Adjusted 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAdjustedRSquared1yrBelow",
+  "display_name": "R-Squared Adjusted 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAlpha1yrAbove",
+  "display_name": "Alpha 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAlpha1yrBelow",
+  "display_name": "Alpha 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageLoss1yrAbove",
+  "display_name": "Average Loss 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageLoss1yrBelow",
+  "display_name": "Average Loss 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageReturn1yrAbove",
+  "display_name": "Average Return 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageReturn1yrBelow",
+  "display_name": "Average Return 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperBearBeta1yrAbove",
+  "display_name": "Bear Beta 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperBearBeta1yrBelow",
+  "display_name": "Bear Beta 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperBeta1yrAbove",
+  "display_name": "Beta 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperBeta1yrBelow",
+  "display_name": "Beta 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperBullBeta1yrAbove",
+  "display_name": "Bull Beta 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperBullBeta1yrBelow",
+  "display_name": "Bull Beta 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperCovariance1yrAbove",
+  "display_name": "CoVariance 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperCovariance1yrBelow",
+  "display_name": "CoVariance 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperCorrelation1yrAbove",
+  "display_name": "Correlation 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperCorrelation1yrBelow",
+  "display_name": "Correlation 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDownsideDeviationPopulation1yrAbove",
+  "display_name": "Downside Deviation 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDownsideDeviationPopulation1yrBelow",
+  "display_name": "Downside Deviation 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperInformationRatio1yrAbove",
+  "display_name": "Information Ratio 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperInformationRatio1yrBelow",
+  "display_name": "Information Ratio 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaxGain1yrAbove",
+  "display_name": "Max Gain 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaxGain1yrBelow",
+  "display_name": "Max Gain 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaxLoss1yrAbove",
+  "display_name": "Max Loss 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaxLoss1yrBelow",
+  "display_name": "Max Loss 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaximumDrawdown1yrAbove",
+  "display_name": "Max Drawdown 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperMaximumDrawdown1yrBelow",
+  "display_name": "Max Drawdown 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPositivePeriods1yrAbove",
+  "display_name": "Positive Periods 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPositivePeriods1yrBelow",
+  "display_name": "Positive Periods 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperRSquared1yrAbove",
+  "display_name": "R-Squared 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperRSquared1yrBelow",
+  "display_name": "R-Squared 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnRiskRatio1yrAbove",
+  "display_name": "Return Risk Ratio 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnRiskRatio1yrBelow",
+  "display_name": "Return Risk Ratio 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSRRI1yrAbove",
+  "display_name": "Synthetic Risk and Reward Indicator 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSRRI1yrBelow",
+  "display_name": "Synthetic Risk and Reward Indicator 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSemiDeviation1yrAbove",
+  "display_name": "Semi Deviation 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSemiDeviation1yrBelow",
+  "display_name": "Semi Deviation 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSemiVariance1yrAbove",
+  "display_name": "Semi Variance 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSemiVariance1yrBelow",
+  "display_name": "Semi Variance 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSharpeRatio1yrAbove",
+  "display_name": "Sharpe Ratio 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSharpeRatio1yrBelow",
+  "display_name": "Sharpe Ratio 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSortino1yrAbove",
+  "display_name": "Sortino Ratio 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSortino1yrBelow",
+  "display_name": "Sortino Ratio 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperStandardDeviation1yrAbove",
+  "display_name": "Standard Deviation 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperStandardDeviation1yrBelow",
+  "display_name": "Standard Deviation 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTrackingError1yrAbove",
+  "display_name": "Tracking Error 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTrackingError1yrBelow",
+  "display_name": "Tracking Error 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTreynorRatio1yrAbove",
+  "display_name": "Treynor Ratio 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTreynorRatio1yrBelow",
+  "display_name": "Treynor Ratio 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskNormal1yrAbove",
+  "display_name": "Value At Risk Normal 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskNormal1yrBelow",
+  "display_name": "Value At Risk Normal 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskNormalETL1yrAbove",
+  "display_name": "Value At Risk Normal End Tail Loss 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskNormalETL1yrBelow",
+  "display_name": "Value At Risk Normal End Tail Loss 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskQuantile1yrAbove",
+  "display_name": "Value At Risk Quantile 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskQuantile1yrBelow",
+  "display_name": "Value At Risk Quantile 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskQuantileETL1yrAbove",
+  "display_name": "Value At Risk Quantile End Tail Loss 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperValueAtRiskQuantileETL1yrBelow",
+  "display_name": "Value At Risk Quantile End Tail Loss 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperVariance1yrAbove",
+  "display_name": "Variance 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperVariance1yrBelow",
+  "display_name": "Variance 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperNumberOfSecuritiesAbove",
+  "display_name": "Number of Securities Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperNumberOfSecuritiesBelow",
+  "display_name": "Number of Securities Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPayoutRatioAbove",
+  "display_name": "Dividend Payout Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPayoutRatioBelow",
+  "display_name": "Dividend Payout Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPayoutRatio5yrAbove",
+  "display_name": "Dividend Payout Ratio - 5Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPayoutRatio5yrBelow",
+  "display_name": "Dividend Payout Ratio - 5Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPerShare1yrAbove",
+  "display_name": "Dividend Per Share 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPerShare1yrBelow",
+  "display_name": "Dividend Per Share 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPerShare3yrAbove",
+  "display_name": "Dividend Per Share 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendPerShare3yrBelow",
+  "display_name": "Dividend Per Share 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2DividendAbove",
+  "display_name": "Price to Dividend Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2DividendBelow",
+  "display_name": "Price to Dividend Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendYieldWAvgAbove",
+  "display_name": "Dividend Yield Weighted Average Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendYieldWAvgBelow",
+  "display_name": "Dividend Yield Weighted Average Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperEBIT2InterestAbove",
+  "display_name": "EBIT to Interest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperEBIT2InterestBelow",
+  "display_name": "EBIT to Interest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperMktCapAvgLatestAbove",
+  "display_name": "Market Capitalisation - Avg. Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperMktCapAvgLatestBelow",
+  "display_name": "Market Capitalisation - Avg. Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperOperCashFlowGrowthRate3yrAbove",
+  "display_name": "Operating Cash Flow - Growth Rate 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperOperCashFlowGrowthRate3yrBelow",
+  "display_name": "Operating Cash Flow - Growth Rate 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth1yrAbove",
+  "display_name": "Sales Growth 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth1yrBelow",
+  "display_name": "Sales Growth 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth3yrAbove",
+  "display_name": "Sales Growth 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth3yrBelow",
+  "display_name": "Sales Growth 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth5yrAbove",
+  "display_name": "Sales Growth 5Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesGrowth5yrBelow",
+  "display_name": "Sales Growth 5Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2EarningsRatioAbove",
+  "display_name": "Price/Earnings Ratio Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2EarningsRatioBelow",
+  "display_name": "Price/Earnings Ratio Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2BookRatioAbove",
+  "display_name": "Price/Book Ratio Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2BookRatioBelow",
+  "display_name": "Price/Book Ratio Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2SalesRatioAbove",
+  "display_name": "Price/Sales Ratio Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2SalesRatioBelow",
+  "display_name": "Price/Sales Ratio Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestReturnOnEquityWAvgAbove",
+  "display_name": "Return on Equity Weighted Average Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestReturnOnEquityWAvgBelow",
+  "display_name": "Return on Equity Weighted Average Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestSalesPerShareGrowth3yrAbove",
+  "display_name": "Sales Per Share Growth 3Yr Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestSalesPerShareGrowth3yrBelow",
+  "display_name": "Sales Per Share Growth 3Yr Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLTDebt2ShareholdersEquityAbove",
+  "display_name": "LT Debt / Shareholders Equity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLTDebt2ShareholdersEquityBelow",
+  "display_name": "LT Debt / Shareholders Equity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth1yrAbove",
+  "display_name": "EPS Growth - 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth1yrBelow",
+  "display_name": "EPS Growth - 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth3yrAbove",
+  "display_name": "EPS Growth - 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth3yrBelow",
+  "display_name": "EPS Growth - 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth5yrAbove",
+  "display_name": "EPS Growth - 5Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperEPSGrowth5yrBelow",
+  "display_name": "EPS Growth - 5Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2EarningsRatioAbove",
+  "display_name": "Price/Earnings Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2EarningsRatioBelow",
+  "display_name": "Price/Earnings Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2BookRatioAbove",
+  "display_name": "Price/Book Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2BookRatioBelow",
+  "display_name": "Price/Book Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2SalesRatioAbove",
+  "display_name": "Price/Sales Ratio Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2SalesRatioBelow",
+  "display_name": "Price/Sales Ratio Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnAssets1yrAbove",
+  "display_name": "Return on Assets 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnAssets1yrBelow",
+  "display_name": "Return on Assets 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnAssets3yrAbove",
+  "display_name": "Return on Assets 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnAssets3yrBelow",
+  "display_name": "Return on Assets 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquity1yrAbove",
+  "display_name": "Return on Equity 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquity1yrBelow",
+  "display_name": "Return on Equity 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquity3yrAbove",
+  "display_name": "Return on Equity 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquity3yrBelow",
+  "display_name": "Return on Equity 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnInvestment1yrAbove",
+  "display_name": "Return on Investment 1Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnInvestment1yrBelow",
+  "display_name": "Return on Investment 1Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnInvestment3yrAbove",
+  "display_name": "Return on Investment 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnInvestment3yrBelow",
+  "display_name": "Return on Investment 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSales2TotalAssetsAbove",
+  "display_name": "Sales to Total Assets Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSales2TotalAssetsBelow",
+  "display_name": "Sales to Total Assets Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesPerShareGrowth1yrAbove",
+  "display_name": "Sales Per Share Growth 1 Year Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesPerShareGrowth1yrBelow",
+  "display_name": "Sales Per Share Growth 1 Year Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesPerShareGrowth3yrAbove",
+  "display_name": "Sales Per Share Growth 3 Year Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperSalesPerShareGrowth3yrBelow",
+  "display_name": "Sales Per Share Growth 3 Year Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalAssets2TotalEquityAbove",
+  "display_name": "Total Assets / Total Equity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalAssets2TotalEquityBelow",
+  "display_name": "Total Assets / Total Equity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalDebt2TotalCapitalAbove",
+  "display_name": "Total Debt / Total Capital Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalDebt2TotalCapitalBelow",
+  "display_name": "Total Debt / Total Capital Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalDebt2TotalEquityAbove",
+  "display_name": "Total Debt / Total Equity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperTotalDebt2TotalEquityBelow",
+  "display_name": "Total Debt / Total Equity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2CashAbove",
+  "display_name": "Price to Cash Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperPrice2CashBelow",
+  "display_name": "Price to Cash Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperRelativeStrengthAbove",
+  "display_name": "Relative Strength Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperRelativeStrengthBelow",
+  "display_name": "Relative Strength Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnCapitalAbove",
+  "display_name": "Return on Capital Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnCapitalBelow",
+  "display_name": "Return on Capital Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnCapital3yrAbove",
+  "display_name": "Return on Capital 3Yr Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnCapital3yrBelow",
+  "display_name": "Return on Capital 3Yr Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestCompositeZScoreAbove",
+  "display_name": "Composite Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestCompositeZScoreBelow",
+  "display_name": "Composite Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2EarningsZScoreAbove",
+  "display_name": "Price to Earnings Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2EarningsZScoreBelow",
+  "display_name": "Price to Earnings Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2BookZScoreAbove",
+  "display_name": "Price to Book Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2BookZScoreBelow",
+  "display_name": "Price to Book Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2SalesZScoreAbove",
+  "display_name": "Price/Sales Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestPrice2SalesZScoreBelow",
+  "display_name": "Price/Sales Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestSPSGrowthZScoreAbove",
+  "display_name": "SPS Growth Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperLatestSPSGrowthZScoreBelow",
+  "display_name": "SPS Growth Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageFinalCompositeZScoreAbove",
+  "display_name": "Average Final Composite Z-Score Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageFinalCompositeZScoreBelow",
+  "display_name": "Average Final Composite Z-Score Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperWeightedFinalCompositeZScoreAbove",
+  "display_name": "Weighted Final Composite Z-Score Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperWeightedFinalCompositeZScoreBelow",
+  "display_name": "Weighted Final Composite Z-Score Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendYieldZScoreAbove",
+  "display_name": "Dividend Yield Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperDividendYieldZScoreBelow",
+  "display_name": "Dividend Yield Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquityZScoreAbove",
+  "display_name": "Return on Equity Z-Score Latest Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperReturnOnEquityZScoreBelow",
+  "display_name": "Return on Equity Z-Score Latest Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperYieldToMaturityAbove",
+  "display_name": "Yield to Maturity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperYieldToMaturityBelow",
+  "display_name": "Yield to Maturity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperNominalMaturityAbove",
+  "display_name": "Nominal Maturity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperNominalMaturityBelow",
+  "display_name": "Nominal Maturity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperEffectiveMaturityAbove",
+  "display_name": "Effective Maturity Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperEffectiveMaturityBelow",
+  "display_name": "Effective Maturity Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageCouponAbove",
+  "display_name": "Average Coupon Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperAverageCouponBelow",
+  "display_name": "Average Coupon Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperCalculatedAverageQualityAbove",
+  "display_name": "Calculated Average Quality Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperCalculatedAverageQualityBelow",
+  "display_name": "Calculated Average Quality Below",
+  "type": "non-range"
+}
+{
+  "group": "lipperFundLeverageRatioAbove",
+  "display_name": "Fund Leverage Ratio Above",
+  "type": "non-range"
+}
+{
+  "group": "lipperFundLeverageRatioBelow",
+  "display_name": "Fund Leverage Ratio Below",
+  "type": "non-range"
+}
+{
+  "group": "etfYTM_WgtAvgAbove",
+  "display_name": "Yield-To-Maturity Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfYTM_WgtAvgBelow",
+  "display_name": "Yield-To-Maturity Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfCPN_WgtAvgAbove",
+  "display_name": "Coupon Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfCPN_WgtAvgBelow",
+  "display_name": "Coupon Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfCurYld_WgtAvgAbove",
+  "display_name": "Current Yield Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfCurYld_WgtAvgBelow",
+  "display_name": "Current Yield Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfMaturity_WgtAvgAbove",
+  "display_name": "Maturity Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfMaturity_WgtAvgBelow",
+  "display_name": "Maturity Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfDUR_WgtAvgAbove",
+  "display_name": "Macaulay Duration Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfDUR_WgtAvgBelow",
+  "display_name": "Macaulay Duration Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfMOD_DUR_WgtAvgAbove",
+  "display_name": "Modified Duration Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfMOD_DUR_WgtAvgBelow",
+  "display_name": "Modified Duration Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfCONVEX_WgtAvgAbove",
+  "display_name": "Convexity Weighted Average (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfCONVEX_WgtAvgBelow",
+  "display_name": "Convexity Weighted Average (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfNum_DistinctAbove",
+  "display_name": "Number of Issuers (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfNum_DistinctBelow",
+  "display_name": "Number of Issuers (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfPct_FixedAbove",
+  "display_name": "Portion With Fixed Interest Rate (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfPct_FixedBelow",
+  "display_name": "Portion With Fixed Interest Rate (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfPct_at_MtyAbove",
+  "display_name": "Portion With Standard Maturity (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfPct_at_MtyBelow",
+  "display_name": "Portion With Standard Maturity (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfMoodyRatingAbove",
+  "display_name": "Average Moody Rating (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfMoodyRatingBelow",
+  "display_name": "Average Moody Rating (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "etfSPRatingAbove",
+  "display_name": "Average S&P Rating (AltaVista) Above",
+  "type": "non-range"
+}
+{
+  "group": "etfSPRatingBelow",
+  "display_name": "Average S&P Rating (AltaVista) Below",
+  "type": "non-range"
+}
+{
+  "group": "prodCatIs",
+  "display_name": "Product Category",
+  "type": "combo"
+}
+{
+  "group": "leadFutOnly",
+  "display_name": "Lead Month Only",
+  "type": "combo"
+}
+{
+  "group": "underConID",
+  "display_name": "Underlying Contract",
+  "type": "non-range"
+}

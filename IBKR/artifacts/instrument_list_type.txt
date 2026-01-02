@@ -1,0 +1,72 @@
+{
+  "type": "STK",
+  "display_name": "US Stocks"
+}
+{
+  "type": "ETF.EQ.US",
+  "display_name": "US Equity ETFs"
+}
+{
+  "type": "ETF.FI.US",
+  "display_name": "US Fixed Income ETFs"
+}
+{
+  "type": "FUT.US",
+  "display_name": "US Futures"
+}
+{
+  "type": "IND.US",
+  "display_name": "US Indexes"
+}
+{
+  "type": "STOCK.NA",
+  "display_name": "America Non-US Stocks"
+}
+{
+  "type": "FUT.NA",
+  "display_name": "America Non-US Futures"
+}
+{
+  "type": "SSF.NA",
+  "display_name": "America Non-US SSFs"
+}
+{
+  "type": "STOCK.EU",
+  "display_name": "Europe Stocks"
+}
+{
+  "type": "FUT.EU",
+  "display_name": "Europe Futures"
+}
+{
+  "type": "IND.EU",
+  "display_name": "Europe Indexes"
+}
+{
+  "type": "SSF.EU",
+  "display_name": "Europe SSFs"
+}
+{
+  "type": "STOCK.ME",
+  "display_name": "MidEast Stocks"
+}
+{
+  "type": "STOCK.HK",
+  "display_name": "Asia Stocks"
+}
+{
+  "type": "FUT.HK",
+  "display_name": "Asia Futures"
+}
+{
+  "type": "IND.HK",
+  "display_name": "Asia Indexes"
+}
+{
+  "type": "SSF.HK",
+  "display_name": "Asia SSFs"
+}
+{
+  "type": "NATCOMB",
+  "display_name": "Native Combos"
+}

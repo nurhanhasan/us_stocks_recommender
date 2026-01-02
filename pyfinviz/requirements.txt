@@ -1,0 +1,6 @@
+pyfinviz==1.2
+annotated-types==0.7.0
+pydantic==2.10.6
+pydantic-core==2.27.2
+pydantic-settings==2.8.1
+typing-extensions==4.13.2

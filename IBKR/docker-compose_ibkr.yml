@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  ibkr:
+    container_name: ibkrGW
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-ibkr-gw
+    networks:
+      - my_ibkr_network
+    ports:
+      - "5000:5000"
+      - "8000:8000"
+    volumes:
+      - ./webapp:/app/webapp
+
+
+networks:
+  my_ibkr_network:
+    driver: bridge

@@ -1,0 +1,135 @@
+https://localhost:5000/v1/api
+
+curl -k \
+--url https://localhost:5000/v1/api/iserver/scanner/params \
+--request GET
+
+
+
+request_url = f"{baseUrl}/iserver/scanner/run"
+json_content = {
+  "instrument": "STK",
+  "location": "STK.US.MAJOR",
+  "type": "HIGH_OPEN_GAP",
+  "filter": [
+    {
+      "code":"priceAbove",
+      "value":1
+    },
+    {
+      "code":"priceBelow",
+      "value":20
+    },
+    {
+      "code":"priceBelow",
+      "value":20
+    }
+  ]
+}
+requests.post(url=request_url, json=json_content)
+
+
+
+curl -k \
+--url https://localhost:5000/v1/api/iserver/scanner/run \
+--request POST \
+--header 'Content-Type:application/json' \
+--data '{
+  "instrument": "STK",
+  "location": "STK.US.MAJOR",
+  "type": "TOP_PERC_GAIN",
+  "filter": [
+    {
+      "code":"priceAbove",
+      "value":1
+    },
+    {
+      "code":"priceBelow",
+      "value":20
+    },
+    {
+      "code":"openGapPercAbove",
+      "value":10
+    }
+  ]
+}'
+
+So we can filter top gainers between $1 and $10, and then loop through the results to find rest criteria
+- > 5x relative volume
+- < 10M float
+- Breaking news ?!
+
+
+curl -k \
+--url https://localhost:5000/v1/api/iserver/scanner/run \
+--request POST \
+--header 'Content-Type:application/json' \
+--data '{
+  "instrument": "STK",
+  "location": "STK.US.MAJOR",
+  "type": "WSH_PREV_EVENT",
+  "filter": [
+  ]
+}'
+
+
+
+ALL Con-ids
+
+curl -k \
+--url https://localhost:5000/v1/api/trsrv/all-conids?exchange=AMEX \
+--request GET > all_con_ids.json
+
+exchanges list:
+AMEX
+ARCA
+NASDAQ(NMS, Small Cap)
+BATS
+
+
+
+
+
+curl -k \
+--url https://localhost:5000/v1/api/trsrv/secdef?conids=507188246 \
+--request GET > trsrv_secdef_conids_ex.json
+
+
+
+Live Market Data Snapshot
+
+curl -k \
+--url https://localhost:5000/v1/api/iserver/marketdata/snapshot?conids=72063691,507188246&fields=31,84,86 \ 
+--request GET
+
+Field	Return Type	Value
+55	  string	    Symbol
+7051	string	    Company name
+83	  string	    Change %
+7682	string	    Change Since Open	The difference between the last price and the open price.
+7741	string	    Prior Close	Yesterday’s closing price
+6509	string	    Market Data Availability.
+87	  string	    Volume	  (Volume for the day, formatted with ‘K’ for thousands or ‘M’ for millions.)
+7762	string	    Volume    (Long	High precision volume for the day.)
+7084	string	    Implied Vol./Hist. Vol %	The ratio of the implied volatility over the historical volatility, expressed as a percentage.
+7087	string	    Hist. Vol. %	30-day real-time historical volatility.
+7088	string	    Hist. Vol. Close %	Shows the historical volatility based on previous close price.
+7282	string	    Average Volume	The average daily trading volume over 90 days.
+7674	string	    EMA(200)	Exponential moving average (N=200).
+7675	string	    EMA(100)	Exponential moving average (N=100).
+7676	string	    EMA(50)	Exponential moving average (N=50).
+7677	string	    EMA(20)	Exponential moving average (N=20).
+7678	string	    Price/EMA(200)	Price to Exponential moving average (N=200) ratio -1, displayed in percents.
+7679	string	    Price/EMA(100)	Price to Exponential moving average (N=100) ratio -1, displayed in percents.
+7724	string	    Price/EMA(50)	Price to Exponential moving average (N=50) ratio -1, displayed in percents.
+7681	string	    Price/EMA(20)	Price to Exponential moving average (N=20) ratio -1, displayed in percents.
+
+7636	string	    Shortable Shares	Number of shares available for shorting.
+
+
+
+
+
+curl --request GET \
+  --url 'https://api.benzinga.com/api/v2/news?pageSize=15&displayOutput=headline&tickers=skil&token=bz.YZLHHIJT7NF2EDVULBLEY5AGJGJRXLZK' \
+  --header 'accept: application/json'
