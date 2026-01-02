@@ -10,10 +10,10 @@
 * The ultimate goal is to get recommendations/validation of stocks that meet certain criteria, with forecasted entry and exit points.
 
 ### Breakdown steps
-[ ] Stock Screener to filter stocks based on criteria.
-[ ] Notification system to alert user with potential stocks.
-[ ] Machine Learning model for stock prediction and validation.
-[ ] Integration with brokerage API for trade execution.
+- [x] Stock Screener to filter stocks based on criteria.
+- [x] Notification system to alert user with potential stocks.
+- [ ] Machine Learning model for stock prediction and validation.
+- [ ] Integration with brokerage API for trade execution.
 
 
 ## Backlog/Possible Ideas
