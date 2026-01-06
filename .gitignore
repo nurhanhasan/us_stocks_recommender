@@ -208,4 +208,5 @@ __marimo__/
 
 
 secrets
-*/n8n_workflows.json
+**/n8n_workflows.json
+**/screener_results.db

@@ -3,15 +3,14 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY pyfinviz_ext/ /app/pyfinviz_ext/
-COPY main.py /app/main.py
-COPY config.py /app/config.py
+COPY app/ /app/app/
+COPY db_results/ /app/db_results/
+COPY cmd/ /app/cmd/
 COPY requirements.txt /app/requirements.txt
-
-RUN mkdir -p /app/db
-
-EXPOSE 4000
+COPY main.py /app/main.py
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "main.py"]
+EXPOSE 4000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "4000"]

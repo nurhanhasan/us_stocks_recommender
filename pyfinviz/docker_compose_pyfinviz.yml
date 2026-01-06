@@ -2,21 +2,22 @@ version: "3.9"
 
 services:
   pyfinviz:
-  # docker run -p 4000:4000 -v pyfinviz_data:/app/db -e NEWS_DATE_TODAY="true" --name pyfinviz2 nurhun/my-pyfinviz:v0.4
-  # docker run -it -p 4000:4000 -v pyfinviz_data:/app/db -e NEWS_DATE_TODAY="true" --name pyfinviz nurhun/my-pyfinviz:v0.4 sh
+  # docker run -p 4000:4000 -v pyfinviz_data:/app/db_results -e NEWS_DATE_TODAY="true" --name pyfinviz2 nurhanhasan/my-pyfinviz:v1.0.0
+  # docker run -it -p 4000:4000 -v pyfinviz_data:/app/db_results -e NEWS_DATE_TODAY="true" --name pyfinviz2 nurhanhasan/my-pyfinviz:v1.0.0 python3 -m cmd.cli
+  # docker run -it -p 4000:4000 -v pyfinviz_data:/app/db_results -e NEWS_DATE_TODAY="true" --name pyfinviz2 nurhanhasan/my-pyfinviz:v1.0.0 sh
     container_name: pyfinviz
     build:
       context: .
       dockerfile: Dockerfile
-    image: nurhun/my-pyfinviz:v0.4
+    image: nurhanhasan/my-pyfinviz:v1.0.0
     environment:
-      - NEWS_DATE_TODAY: "true"
+      - NEWS_DATE_TODAY=true
     networks:
       - my_pyfinviz_network
     ports:
       - "4000:4000"
     volumes:
-      - pyfinviz_data:/app/db/
+      - pyfinviz_data:/app/db_results
 
 # Assign external volume for persistent data storage
 # docker volume create pyfinviz_data

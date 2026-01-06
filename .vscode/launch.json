@@ -8,20 +8,21 @@
       "name": "Python Debugger: pyfinviz File",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/pyfinviz/main.py",
+      "pythonPath": "${workspaceFolder}/pyfinviz/venv/bin/python",
+      "module": "cmd.cli",
+      "cwd": "${workspaceFolder}/pyfinviz",
       "console": "integratedTerminal",
       "justMyCode": false
     },
-    // {
-    //     "name": "Python Debugger: FastAPI",
-    //     "type": "debugpy",
-    //     "request": "launch",
-    //     "module": "uvicorn",
-    //     "args": [
-    //         "main:app",
-    //         "--reload"
-    //     ],
-    //     "jinja": true
-    // }
+    {
+      "name": "Python Debugger: FastAPI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "pythonPath": "${workspaceFolder}/pyfinviz/venv/bin/python",
+      "cwd": "${workspaceFolder}/pyfinviz",
+      "args": ["main:app", "--reload"],
+      "jinja": true
+    }
   ]
 }

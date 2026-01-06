@@ -1,15 +1,37 @@
 import sqlite3
 from enum import Enum
 from pathlib import Path
-from typing import List, TypedDict
+from typing import List
 
 import pandas as pd
 
+from app.application.models.entities import ScreenerResult, Stock
+from app.application.ports.outbound.pyfinviz_port import StockScreenerPort
+from app.infrastructure.configs.config import configs
 from pyfinviz.screener import Screener
 
 
-# Add a wrapper to extend Screener functionalities
-class ScreenerWrapper:
+class ExtendedScreener(StockScreenerPort):
+    """
+    Wrapper over pyfinviz.Screener to:
+    - Merge multiple pages
+    - export CSV
+    - insert/update SQLite DB
+    - integrate extra view options and filters
+    """
+
+    def __init__(self, filter_options=None, view_option=None, order_by=None, custom_settings_options=None):
+        self._screener = Screener(
+            filter_options=filter_options,
+            view_option=view_option,
+            order_by=order_by,
+            custom_settings_options=custom_settings_options,
+        )
+
+    @property
+    def data_frames(self):
+        # proxy to Screener's data_frames
+        return self._screener.data_frames
 
     class ScreenerFilterOption:
         ALL = ""
@@ -36,17 +58,6 @@ class ScreenerWrapper:
         LAST_1_MONTH = "news_date_prevmonth"
         CUSTOM_ELITE_ONLY = "modal"
 
-    def __init__(self):
-        self._screener = Screener()
-
-
-class ChangeSummary(TypedDict):
-    inserted: List[dict]
-    updated: List[dict]
-    unchanged: List[dict]
-
-
-class PersistableScreener(Screener):
 
     def to_csv(self, file_path: str = "screener_results.csv", **kwargs) -> None:
         """
@@ -64,12 +75,13 @@ class PersistableScreener(Screener):
             combined.to_csv(file_path, index=False, **kwargs)
 
 
-    def to_updated_deduplicated_sqlite(
+    def scan(
         self,
+        filters: dict | None = None,
         db_path: Path | None = None,
         table_name: str = "screener_results",
         **kwargs,
-    ) -> ChangeSummary:
+    ) -> ScreenerResult:
         """
         Create or update a SQLite database with all pages concatenated (if there are multiple pages).
 
@@ -77,11 +89,8 @@ class PersistableScreener(Screener):
         :param table_name: The name of the table to store the results.
         """
 
-        changes: ChangeSummary = {
-            "inserted": [],
-            "updated": [],
-            "unchanged": [],
-        }
+        screener_results = ScreenerResult()
+
 
         all_pages: List[pd.DataFrame] = [
             df for df in self.data_frames.values() if df is not None and not df.empty
@@ -89,7 +98,7 @@ class PersistableScreener(Screener):
 
         if not all_pages:
             # print("No data to write to database.")
-            return {"inserted": [], "updated": [], "unchanged": []}
+            return screener_results
 
         # Combine pages, if multiple, before table creation.
         combined = (
@@ -97,8 +106,8 @@ class PersistableScreener(Screener):
         )
 
         if db_path is None:
-            base_dir = Path(__file__).parent.parent.resolve()
-            db_path = (base_dir / "db" / "screener_results.db").resolve()
+            base_dir = Path(__file__).parent.parent.parent.parent.parent.resolve()
+            db_path = (base_dir / "db_results" / "screener_results.db").resolve()
         else:
             db_path = Path(db_path).resolve()
 
@@ -128,6 +137,23 @@ class PersistableScreener(Screener):
                         params=(ticker,),
                     )
 
+                    # Convert row to Stock domain object/entity
+                    stock = Stock(
+                        ticker=row["Ticker"],
+                        company=row["Company"],
+                        country=row["Country"],
+                        sector=row["Sector"],
+                        industry=row["Industry"],
+                        shares_float=row["Float"],
+                        short_interest=row["ShortInterest"],
+                        relative_volume=row["RelVolume"],
+                        volume=row["Volume"],
+                        price=row["Price"],
+                        change=row["Change"],
+                        news_time=row["NewsTime"],
+                        news_title=row["NewsTitle"],
+                    )
+
                     # Insert new row
                     if existing.empty:
                         # Insert new row (ensure order of values matches df.columns)
@@ -138,12 +164,12 @@ class PersistableScreener(Screener):
                             f'INSERT INTO "{table_name}" ({cols_sql}) VALUES ({placeholders})',
                             tuple(values),
                         )
-
-                        changes["inserted"].append(row.to_dict())
+                        screener_results.added.append(stock)
 
                     # Update existing row
                     else:
                         if row.get("NewsTitle") == existing["NewsTitle"].values[0]:
+                            screener_results.unchanged.append(stock)
                             continue  # No changes, skip update
 
                         # update existing row: set all columns except Ticker
@@ -154,10 +180,11 @@ class PersistableScreener(Screener):
                             f'UPDATE "{table_name}" SET {set_clause} WHERE "Ticker" = ?',
                             tuple(values),
                         )
-                        changes["updated"].append(row.to_dict())
+                        screener_results.updated.append(stock)
 
-        # print(
-        #     f"Wrote/Updated results to {db_path} ({len(combined)} rows, {len(combined.columns)} columns) to table '{table_name}'"
-        # )
 
-        return changes
+        print(
+            f"Wrote/Updated results to {db_path} ({len(combined)} rows, {len(combined.columns)} columns) to table '{table_name}'"
+        )
+
+        return screener_results
